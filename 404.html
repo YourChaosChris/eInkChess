@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>PaperGames</title>
+<meta name="robots" content="noindex">
+<script>
+// Alte Links wie /eInkChess/chess.html auf dieselbe Seite bei PaperGames umleiten.
+var rest = location.pathname.replace(/^\/eInkChess\/?/i, "");
+location.replace("https://yourchaoschris.github.io/PaperGames/" + rest + location.search + location.hash);
+</script>
+</head>
+<body>
+<p>Das Projekt heisst jetzt <strong>PaperGames</strong>.</p>
+<p>Weiter zu <a href="https://yourchaoschris.github.io/PaperGames/">yourchaoschris.github.io/PaperGames/</a></p>
+</body>
+</html>
